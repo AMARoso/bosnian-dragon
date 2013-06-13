@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Dragon of Bosnia</title>
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-31509302-3']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	<link href='http://fonts.googleapis.com/css?family=Unkempt:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+	<!--CSS style import-->
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- EaselJS library for work with canvas-->
+	<script src="http://code.createjs.com/easeljs-0.6.1.min.js"></script>
+	
+	<!-- main program -->
+	<script src="javascript/main.js"></script>
+	<!--animation data from the exported json from swf-->
+	<script src="javascript/animation_data.js"></script>
+	<!--player object-->
+	<script src="javascript/player.js"></script>
+	<script src="javascript/particle.js"></script>
+	<script src="javascript/spider.js"></script>
+	<script src="javascript/bubble.js"></script>
+	<script src="javascript/stecak.js"></script>
+	<script src="javascript/zeko.js"></script>
+	
+	
+</head> 
+<body  onload="init();">
+	<table id="tbl_wrap"><tbody><tr><td id="td_wrap">
+        <!-- START: Anything between these wrapper comment lines will be centered -->
+
+		<canvas id="canvas1" width="970" height="413"></canvas>
+
+        <!-- END: Anything between these wrapper comment lines will be centered -->
+    </td></tr></tbody></table>	
+</body>
+</html>
